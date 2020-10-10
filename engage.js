@@ -13,7 +13,7 @@ function searchIt() {
             var newFan = data.statuses[Math.floor(Math.random() * data.statuses.length)];
             var statusObj = {
                 status: "@" + newFan.user.screen_name +
-                    " ay yo. Alls I heard was talk bout' trump and dicks. I ain't so good at readin'. I'm just a bot. But I thought you might wanna follow my page! I feed that man dicks everyday",
+                    "All I heard was the words trump and dick so I thought you might wanna follow my page! I feed that man dicks everyday",
                 in_reply_to_status_id: newFan.id_str
             }
             whChef.post('statuses/update', statusObj);
