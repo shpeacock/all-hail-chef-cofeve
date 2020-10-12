@@ -6,7 +6,7 @@ module.exports.breakfast = [
     " crepes",
     " crossan'Wiches",
     " omlettes",
-    "s with breakfast potatoes and sunny d",
+    "s with breakfast potatoes",
     "s with grits and I tried sneaking in some pureed cauliflower",
 ]
 
@@ -15,5 +15,6 @@ module.exports.drinkTemp = [
     "steamed",
     "chilled",
     "tepid",
-    "stale"
+    "stale",
+    "flat"
 ]
