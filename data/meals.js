@@ -6,15 +6,28 @@ module.exports.breakfast = [
     " crepes",
     " crossan'Wiches",
     " omlettes",
-    "s with breakfast potatoes",
-    "s with grits and I tried sneaking in some pureed cauliflower",
 ]
 
-module.exports.drinkTemp = [
-    "hot",
-    "steamed",
-    "chilled",
-    "tepid",
-    "stale",
-    "flat"
+module.exports.cookType = [
+    "grilled ",
+    "flame-grilled ",
+    "boiled ",
+    "broiled ",
+    "smoked ",
+    "steamed ",
+    "roasted ",
+    "pan broiled ",
+    "stir-fried ",
+    "deep-fat-fried ",
+    "air-fried ",
+    "braised ",
+    "raw "
+]
+
+module.exports.sideDish = [
+    "sour patch kids",
+    "twizzlers",
+    "skittles",
+    "oreos",
+    "candy corn"
 ]
