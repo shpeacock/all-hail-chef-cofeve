@@ -13,7 +13,7 @@ function breakFast() {
     var sideDish = m.sideDish[Math.floor(Math.random() * m.sideDish.length)];
     var breakfast = bf[Math.floor(Math.random() * bf.length)];
     const params = {
-        status: 'today for breakfast @realdonaldtrump is having some' + breakfast + ' with ' + cooked + dick + '-dicks' + " and a side of " + sideDish
+        status: 'today for breakfast @realdonaldtrump is having some' + breakfast + ' with ' + cooked + dick + '-dicks'
     }
     whChef.post('statuses/update', params);
 }
