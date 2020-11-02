@@ -10,7 +10,6 @@ const whChef = new twit(chefConfig);
 function breakFast() {
     var dick = animals();
     var cooked = m.cookType[Math.floor(Math.random() * m.breakfast.length)];
-    var sideDish = m.sideDish[Math.floor(Math.random() * m.sideDish.length)];
     var breakfast = bf[Math.floor(Math.random() * bf.length)];
     const params = {
         status: 'today for breakfast @realdonaldtrump is having some' + breakfast + ' with ' + cooked + dick + '-dicks'
