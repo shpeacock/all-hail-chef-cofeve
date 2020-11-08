@@ -6,6 +6,15 @@ module.exports.breakfast = [
     " crepes",
     " crossan'Wiches",
     " omlettes",
+    " poached eggs",
+    " boiled eggs",
+    " pickled eggs",
+    " scallop potatoes",
+    " pop tarts",
+    " stale funions",
+    " twinkies",
+    " burnt marshmellows"
+
 ]
 
 module.exports.cookType = [
@@ -30,4 +39,26 @@ module.exports.sideDish = [
     "skittles",
     "oreos",
     "candy corn"
+]
+
+module.exports.cereal = [
+    "captain crunch",
+    "reeces puffs",
+    "golden grams",
+    "cookie crisp",
+    "fruit loops",
+    "Aldi brand Cocoa Puffs",
+    "Lucky Charms",
+    "Cheerios",
+]
+
+module.exports.drink = [
+    "milk",
+    "juice",
+    "sunny d",
+    "chocolate milk",
+    "chocolate oat milk",
+    "chamomile tea",
+    "Oolong tea",
+    "Ensure"
 ]
