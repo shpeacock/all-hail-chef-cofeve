@@ -14,7 +14,7 @@ function breakFast() {
     var cereal = cr[Math.floor(Math.random() * cr.length)];
     var drink = dr[Math.floor(Math.random() * dr.length)];
     const params = {
-        status: 'for his VERY LAST BREAKFAST in the whitehouse @realdonaldtrump having' +
+        status: 'for his VERY LAST BREAKFAST in the WhiteHouse @realdonaldtrump having' +
             breakfast + ' with ' + cooked + dick + '-dicks.' +
     }
     whChef.post('statuses/update', params);
