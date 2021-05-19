@@ -1,10 +1,6 @@
 const animals = require('animals');
 const m = require('./data/meals.js');
-const bf = m.breakfast; <<
-<< << < HEAD
-const dr = m.drink; ===
-=== = >>>
->>> > 51058 d29384df9ad0558013c2b62a7f04e4b9c38
+const bf = m.breakfast;
 const twit = require('twit');
 //these are depdedencies established in other files
 //this is creating a twit object using API tokens established in a file that is ignored from git
