@@ -13,7 +13,12 @@ module.exports.breakfast = [
     " pop tarts",
     " stale funions",
     " twinkies",
-    " burnt marshmellows"
+    " burnt marshmellows",
+    " coconut cauliflower rice",
+    " migas ",
+    " gojuchang waffles ",
+    " spanish tortilla ",
+    " tibetan porridge "
 
 ]
 
