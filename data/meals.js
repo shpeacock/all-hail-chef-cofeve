@@ -13,7 +13,8 @@ module.exports.breakfast = [
     " gojuchang waffles ",
     " spanish tortilla ",
     " tibetan porridge ",
-    " earth-oven roasted "
+    " earth-oven roasted ",
+    " sauna-room steamed"
 
 ]
 
