@@ -31,7 +31,7 @@ module.exports.cookType = [
     "deep-fat-fried ",
     "air-fried ",
     "braised ",
-    "sidewalk-fried",
+    "sidewalk-fried ",
     "slow-roasted ",
     " canned ",
     " microwaved "
