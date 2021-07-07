@@ -13,7 +13,7 @@ function breakFast() {
     var breakfast = bf[Math.floor(Math.random() * bf.length)];
     const params = {
         status: 'today @mccloskeyusa had' +
-        breakfast + ' with ' + cooked + dick + '-dicks for breakfast. he only got a few crumbs on his shirt'
+        breakfast + ' with ' + cooked + dick + '-dicks for breakfast. he made a big ol mess of his shirt'
     }
     whChef.post('statuses/update', params);
     
