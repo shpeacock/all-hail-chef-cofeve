@@ -12,11 +12,19 @@ function breakFast() {
     var cooked = m.cookType[Math.floor(Math.random() * m.breakfast.length)];
     var breakfast = bf[Math.floor(Math.random() * bf.length)];
     const params = {
+<<<<<<< HEAD
             status: 'today for breakfast @mccloskeyusa is having' +
                 breakfast + ' with ' + cooked + dick + '-dicks.'
         }
         // whChef.post('statuses/update', params);
     console.log(params.status);
+=======
+        status: 'today @mccloskeyusa had' +
+        breakfast + 'with ' + cooked + dick + '-dicks for breakfast. he made a big ol mess of his shirt'
+    }
+    whChef.post('statuses/update', params);
+    
+>>>>>>> 6c63d247aa0c4865fdddbe798b9aad66c85672cc
 }
 
 breakFast();

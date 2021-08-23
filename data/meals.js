@@ -1,19 +1,20 @@
 module.exports.breakfast = [
-    " biscuit sandwiches",
-    " bagel sandwiches",
-    " breakfast tacos",
-    " breakfast burritos",
-    " crepes",
-    " crossan'Wiches",
-    " omlettes",
-    " poached eggs",
-    " boiled eggs",
-    " pickled eggs",
-    " scallop potatoes",
-    " pop tarts",
-    " stale funions",
-    " twinkies",
-    " burnt marshmellows"
+    " whataburger biscuit sandwiches",
+    " thomas's bagel sandwiches ",
+    " taco bell breakfast tacos",
+    " marfa-style breakfast burritos ",
+    " boring-ass crepes ",
+    " costco crossan'Wiches ",
+    " half-assed omlettes ",
+    " soggy poached eggs ",
+    " hard-boiled eggs ",
+    " coconut cauliflower rice ",
+    " migas ",
+    " gojuchang waffles ",
+    " spanish tortilla ",
+    " tibetan porridge ",
+    " earth-oven roasted ",
+    " sauna-room steamed "
 
 ]
 
@@ -30,7 +31,10 @@ module.exports.cookType = [
     "deep-fat-fried ",
     "air-fried ",
     "braised ",
-    "raw "
+    "sidewalk-fried ",
+    "slow-roasted ",
+    " canned ",
+    " microwaved "
 ]
 
 module.exports.sideDish = [
