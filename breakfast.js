@@ -6,16 +6,17 @@ const twit = require('twit');
 //this is creating a twit object using API tokens established in a file that is ignored from git
 const chefConfig = require('./chef.js');
 const whChef = new twit(chefConfig);
+const target = require('./switch.js');
 
-function breakFast() {
+function breakFast(target) {
     var dick = animals();
     var cooked = m.cookType[Math.floor(Math.random() * m.breakfast.length)];
     var breakfast = bf[Math.floor(Math.random() * bf.length)];
     const params = {
-        status: 'today for breakfast @DevinNunes is having' +
-            breakfast + ' with ' + cooked + dick + '-dicks.'
+        status: 'today for breakfast ' + target + ' is having' +
+            breakfast + 'with ' + cooked + dick + '-dicks.'
     }
     whChef.post('statuses/update', params);
 }
 
-breakFast();
+breakFast(target);
