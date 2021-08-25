@@ -1,9 +1,10 @@
 const twit = require('twit');
 const chefConfig = require('./chef.js');
 const whChef = new twit(chefConfig);
+const target = require('./switch.js');
 
-function searchIt() {
-    whChef.get('search/tweets', { q: "\"@DevinNunes Dick\"", }, gotData);
+function searchIt(target) {
+    whChef.get('search/tweets', { q: target + "\"Dick\"", }, gotData);
 
     function gotData(err, data) {
         if (!data) {
@@ -21,4 +22,4 @@ function searchIt() {
     }
 }
 
-searchIt();
+searchIt(target);
