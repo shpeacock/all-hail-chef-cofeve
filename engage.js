@@ -11,11 +11,12 @@ function searchIt(target) {
             console.log(err);
         }
         if (data) {
-            var newFan = data.statuses[Math.floor(Math.random() * data.statuses.length)];
-            var statusObj = {
-                status: "@" + newFan.user.screen_name +
-                    ' All I heard were the words ' + target + ' and dick. I think I have something to contribute to those types of convos. I feed him dicks quite often',
-                in_reply_to_status_id: newFan.id_str
+        var newFan = data.statuses[Math.floor(Math.random() * data.statuses.length)];
+        var statusObj = {
+            status: "@" + newFan.user.screen_name +
+            ' All I heard were the words ' + target + 
+            ' and dick. I think you might like to follow my account',
+            in_reply_to_status_id: newFan.id_str
             }
             whChef.post('statuses/update', statusObj);
         }
