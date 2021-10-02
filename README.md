@@ -6,6 +6,6 @@ They say you are what you eat. To keep up that level of dickishness, you must ne
 With every new day, there is a new dick we have to feed. So every morning an algorithm generates a random meal centered on the meat from an animal's dick. 
 Everything is completely random. A random style of cooking, a random dish etc. 
 
-Every afternoon, the bot seeks out new potential follewers by seeking out conversations where our "client" is being called a dick by another twitter user. 
+Every afternoon, chef-cofeve seeks out new friendsby finding ongoing conversations where our client for the day, is being called a dick by another twitter user. 
 
 Computer Scientists believe that the greatest, funniest, and smartest twitter bot has yet to be discovered. We believe chef-cofeve is that bot. 
