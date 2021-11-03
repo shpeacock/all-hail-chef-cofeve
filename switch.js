@@ -12,7 +12,7 @@ switch (new Date().getDay()) {
         day = "@mccloskeyusa";
         break;
     case 4:
-        day = "Thursday";
+        day = "@Jim_Jordan";
         break;
     case 5:
         day = "@tedcruz";
